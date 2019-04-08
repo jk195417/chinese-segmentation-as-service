@@ -12,4 +12,4 @@ Using `Flask` export `jieba`/`SnowNLP`/`pkuseg` as http API web service.
 1. clone it `$ git clone https://github.com/jk195417/chinese-segmentation-as-service.git`
 2. `$ cd chinese-segmentation-as-service`
 3. `$ pipenv install`
-4. `$ python3 app.py`, serve on http://localhost:3001
+4. `$ pipenv run python app.py`, serve on http://localhost:3001
