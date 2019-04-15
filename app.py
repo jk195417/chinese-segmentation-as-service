@@ -9,7 +9,7 @@ app = Flask(__name__)
 def root():
     return 'Chinese segmentation as service.'
 
-@app.route('/seg', methods=['POST'])
+@app.route('/segmentations', methods=['POST'])
 def seg():
     text = request.json.get('text', False)
     if not text:

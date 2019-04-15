@@ -13,4 +13,4 @@ Using `Flask` export `jieba`/`SnowNLP`/`pkuseg` as http API web service.
 2. `$ cd chinese-segmentation-as-service`
 3. `$ pipenv install`
 4. `$ pipenv run python app.py`, serve on http://localhost:3001
-5. `$ curl -X POST -H "Content-Type: application/json" -d '{"text" : "要斷詞的文字"}' "http://localhost:3001/seg"`
+5. `$ curl -X POST -H "Content-Type: application/json" -d '{"text" : "要斷詞的文字"}' "http://localhost:3001/segmentations"`
